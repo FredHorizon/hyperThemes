@@ -73,11 +73,11 @@ module.exports = {
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
     colors: {
-      black: '#000000',
-      red: '#C51E14',
-      green: '#1DC121',
-      yellow: '#C7C329',
-      blue: '#0A2FC4',
+      black: '#020B14',
+      red: '#d32f2f',
+      green: '#00c853',
+      yellow: '#ffeb3b',
+      blue: '#1565c0',
       magenta: '#C839C5',
       cyan: '#20C5C6',
       white: '#C7C7C7',
@@ -172,7 +172,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-custom-controls", "hyper-dracula"],
+  plugins: ["hyper-custom-controls"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
